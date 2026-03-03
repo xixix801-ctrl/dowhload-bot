@@ -5,7 +5,7 @@ from aiogram.filters import Command
 import yt_dlp
 
 # Вставь сюда свой токен от @BotFather
-TOKEN = "ТВОЙ_ТОКЕН_ЗДЕСЬ"
+TOKEN = "8761890419:AAF2wjwxbQF2Eo9VjZ6M9zr4OqXKhVQC8nw"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -62,4 +62,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
